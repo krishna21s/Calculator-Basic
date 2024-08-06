@@ -1,0 +1,56 @@
+body{
+  background-color: #e0e0e0ff;
+}
+.calc-card {
+  border: 1px solid;
+  height: 75%;
+  width: 48vh;
+  box-shadow: -6px -2px 4px -1px white, 5px 1px 20px grey;
+  border-radius: 15px;
+}
+.container {
+  height: 100vh;
+  background-color: #e0e0e0ff;
+}
+.sub-div {
+  height: 100%;
+  background-color: #e0e0e0ff;
+  box-shadow: -6px -2px 10px -1px white, 5px 1px 20px grey;
+  border-radius: 15px;
+}
+.calc-text-card {
+  width: 350px;
+  background-color: #e0e0e0ff;
+  box-shadow: -5px -2px 4px -1px white, 5px 1px 20px grey;
+  border-radius: 15px;
+}
+.display,.button-div {
+  height: 50px;
+  background-color: #e0e0e0ff;
+  box-shadow: -4px -2px 4px -1px white, 5px 1px 20px grey;
+  border: none;
+}
+.btn-custom {
+  width: 20%;
+  box-shadow: -4px -2px 4px -1px white, 5px 1px 20px grey;
+  transition: 0.3s linear;
+}
+button:focus{
+  box-shadow: none;
+  font-size: smaller;
+}
+.special-btn:focus{
+  box-shadow: -4px -2px 4px -1px white, 5px 1px 20px grey;
+  transition: 0.3s;
+  font-size: medium;
+}
+.special-btn:hover{
+}
+.special-btn{
+  background-color: rgba(123, 30, 30, 0.717);
+  color: white;
+}
+.calc-text{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(136, 82, 16);
+}
